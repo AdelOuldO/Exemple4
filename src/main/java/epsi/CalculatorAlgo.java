@@ -16,6 +16,10 @@ public final class CalculatorAlgo {
         return a + b;
     }
 
+    public static int mult(int a, int b) {
+        return 0;
+    }
+
     private CalculatorAlgo() {
         throw new IllegalArgumentException("Utility class - do not instantiate");
     }
